@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackgroundRed"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".Gamepage.WorldLearn.WorldActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_A1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="A"
+                    android:textColor="#FFFFFF"
+                    android:textSize="90dp" />
+
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_B1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="B"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_C1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="C"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_D1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="D"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_E1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="E"
+                    android:textColor="#FFFFFF"
+
+                    android:textSize="90dp" />
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_F1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="F"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_G1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="G"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_H1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="H"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_I1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="I"
+                    android:textColor="#FFFFFF"
+
+                    android:textSize="90dp" />
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_J1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="J"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_K1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="K"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_L1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="L"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_M1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="M"
+                    android:textColor="#FFFFFF"
+
+                    android:textSize="90dp" />
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_N1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="N"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_O1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="O"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_P1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="P"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_R1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="R"
+                    android:textColor="#FFFFFF"
+
+                    android:textSize="90dp" />
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_S1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="S"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_T1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="T"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_U1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="U"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_V1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="V"
+                    android:textColor="#FFFFFF"
+
+                    android:textSize="90dp" />
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_Y1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Y"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+
+                <Button
+                    android:id="@+id/btn_harfKelimeCumle_Z1"
+                    android:layout_width="96dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Z"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="90dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

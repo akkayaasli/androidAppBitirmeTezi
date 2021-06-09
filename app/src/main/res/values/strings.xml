@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">OtizmleYasam</string>
+    <string name="strMainTitle">OTİZMLE YAŞAM</string>
+    <string name="strSecondTitle">Farkındayım!</string>
+    <string name="strStartButtonText">HAYDİ BAŞLAYALIM !</string>
+    <string name="strMenu1">Etkinlik Çizergesi</string>
+    <string name="strMenu2">Matematik</string>
+    <string name="strMenu3">Jest ve Mimikler</string>
+    <string name="strMenu4">Hikaye</string>
+    <string name="strMenu5">Eşleştirme</string>
+    <string name="strMenu6">Harf Kelime Cümle</string>
+    <string name="strMenu7">Tane Kavramı</string>
+    <string name="strMenu8">Fiiller</string>
+    <string name="strMenu9">Yapboz</string>
+    <string name="strMenu10">Sesli Nesne</string>
+    <string name="strMathMenu1">Eksik Sayıyı Tamamla</string>
+    <string name="strMathMenu2">Sayıları ve Nesneleri Eşleştir</string>
+    <string name="strAddStory">Hikaye Ekle</string>
+    <string name="strAdd">Ekle</string>
+    <string name="strStoryName">Hikaye Adı</string>
+    <string name="up">Yukarı Sürükle</string>
+    <string name="down">Aşağı Sürükle</string>
+    <string name="right">Sağa Sürükle</string>
+    <string name="left">Sola Sürükle</string>
+
+
+</resources>

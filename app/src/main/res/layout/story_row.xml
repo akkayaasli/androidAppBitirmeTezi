@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    >
+
+   <LinearLayout
+       android:id="@+id/lyt_Story"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:background="@color/colorLytStoryBackground">
+       <ImageView
+           android:id="@+id/img_story"
+           android:layout_marginLeft="10dp"
+           android:layout_marginTop="10dp"
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           app:srcCompat="@drawable/main_menu_hikaye4" />
+
+       <TextView
+           android:id="@+id/txtStoryName"
+           android:gravity="center"
+           android:layout_gravity="center"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="TextView" />
+
+       <TextView
+           android:id="@+id/txtStoryID"
+
+           android:visibility="gone"
+
+           android:gravity="center"
+           android:layout_gravity="center"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="TextView" />
+   </LinearLayout>
+</androidx.cardview.widget.CardView>

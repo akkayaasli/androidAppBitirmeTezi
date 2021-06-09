@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/styl_main_start_btn"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imc_row_icon_to_do"
+        android:layout_width="120dp"
+
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="120dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txt_to_do_row_saat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            android:text="MMMMMM"></TextView>
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txt_to_do_row_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextMain"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="MMMMMM"></TextView>
+    </LinearLayout>
+</LinearLayout>

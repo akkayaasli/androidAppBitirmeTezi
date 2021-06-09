@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.balikesirbitirme.otizmleyasam">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".RealmDataBase.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Gamepage.WorldLearn.WordSecondActivity"></activity>
+        <activity android:name=".Gamepage.WorldLearn.WorldMenuActivity" />
+        <activity android:name=".Gamepage.SoundObjectPage.SoundObjectActivity" />
+        <activity android:name=".Gamepage.WorldLearn.WorldActivity" />
+        <activity android:name=".Gamepage.ToDoListPage.ToDoAddActivity" />
+        <activity android:name=".Gamepage.ToDoListPage.EbeveynMainList" />
+        <activity android:name=".Ebeveyn.TodolistEbeveyn" />
+        <activity android:name=".Ebeveyn.EbeveynMenu" />
+        <activity android:name=".Gamepage.PuzzleGamePage.PuzzleGameActivity" />
+        <activity android:name=".mainpage.BigChildrenActivity" />
+        <activity android:name=".mainpage.NexterActivity" />
+        <activity android:name=".Gamepage.StoryPage.StorySound" />
+        <activity android:name=".Gamepage.MoveGamePage.MoveGameActivity" />
+        <activity android:name=".Gamepage.StoryPage.StoryMenuActivity" />
+        <activity android:name=".Gamepage.MimicPage.MimicActivity" />
+        <activity android:name=".Gamepage.PairingGamePage.PairingActivity" />
+        <activity android:name=".Gamepage.MathGamePage.MathGameActivity2" />
+        <activity android:name=".Gamepage.MathGamePage.MathGameActivity" />
+        <activity android:name=".mainpage.MathActivity" />
+        <activity android:name=".mainpage.MainMenuActivity" />
+        <activity android:name=".mainpage.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
